@@ -2,6 +2,11 @@
     font-family: "Chau Philomene One", sans-serif;
 }
 
+body{
+    background-image: url(img/background.png); 
+    background-size: 40%;
+}
+
 nav{
     top: 0;
     left: 0;
@@ -32,7 +37,7 @@ li .menuAtual{
     border-bottom: 3px solid #fab66b;
 }
 
-.home{
+.home {
     display: flex;
     padding: 10px;
     color: white;
@@ -41,17 +46,19 @@ li .menuAtual{
     max-width: 65%;
     margin-left: 15%;
     margin-top: 7%;
-    justify-content: space-between;
+    position: relative; /* Adicionando o position relativo para que a imagem possa sair do elemento */
 }
 
-.home .texto{
+.home .texto {
     font-size: 200%;
     display: flex;
     flex-direction: column;
 }
 
-.home img{
-    max-width: 30%;
+.home img {
+    position: absolute; /* Deixa a imagem fora do fluxo normal */
+    right: 0; /* Move a imagem para fora pela direita */
+    bottom: -25%; /* Alinha a imagem ao fundo do contêiner */
+    max-width: 30%; /* Tamanho da imagem */
     height: auto;
-    align-self: center; /* Alinha verticalmente a imagem ao centro */
 }
