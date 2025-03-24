@@ -1,0 +1,57 @@
+*{
+    font-family: "Chau Philomene One", sans-serif;
+}
+
+nav{
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+li{
+    display: inline-block;
+    text-decoration: none;
+    padding-right: 50px;
+}
+
+li .menu{
+    color: #fab66b;
+    text-decoration: none;
+    font-size: x-large;
+    border-bottom: 3px solid none;
+}
+
+li .menu:hover{
+    border-bottom: 3px solid #fab66b;
+}
+
+li .menuAtual{
+    color: #fab66b;
+    text-decoration: none;
+    font-size: x-large;
+    border-bottom: 3px solid #fab66b;
+}
+
+.home{
+    display: flex;
+    padding: 10px;
+    color: white;
+    background-color: #e09ca0;
+    border-radius: 20px;
+    max-width: 65%;
+    margin-left: 15%;
+    margin-top: 7%;
+    justify-content: space-between;
+}
+
+.home .texto{
+    font-size: 200%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home img{
+    max-width: 30%;
+    height: auto;
+    align-self: center; /* Alinha verticalmente a imagem ao centro */
+}
