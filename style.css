@@ -138,3 +138,36 @@ a{
     background-color: white;
     border-radius: 20px;
 }
+
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #e09ca0;
+    border-radius: 20px;
+    max-width: 65%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.texto-contato{
+    font-size: 200%;
+}
+
+.horario-contato{
+    font-size: 170%;
+}
+
+.imagens-contato{
+    margin-left: 3%;
+}
+
+.icone{
+    cursor: pointer;
+    margin-right: 3%;
+    max-width: 7%;
+    height: auto;
+}
