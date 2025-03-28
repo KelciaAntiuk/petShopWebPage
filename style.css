@@ -161,7 +161,13 @@ a{
     font-size: 170%;
 }
 
+.data-horario{
+    font-size: 170%;
+    margin: 0;
+}
+
 .imagens-contato{
+    margin-top: 10%;
     margin-left: 3%;
 }
 
@@ -170,4 +176,5 @@ a{
     margin-right: 3%;
     max-width: 7%;
     height: auto;
+    border-radius: 50px;
 }
