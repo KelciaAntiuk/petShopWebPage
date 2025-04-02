@@ -147,11 +147,6 @@ a{
     font-size: 40px;
 }
 
-/*Adiciona um efeito ao passar o mouse em cima*/
-a:hover{
-    background-color: #f0c0c0;
-}
-
 /*Estiliza as imagens dentro do menu*/
 .imagem-menu{
     width: 160px;
