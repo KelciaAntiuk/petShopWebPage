@@ -69,11 +69,13 @@ li .menuAtual{
     height: auto; 
 }
 
+/*Estiliza o titulo da página*/
 .titulo{
     color: #fab66b;
     padding-inline-start: 40px;
 }
 
+/*Estiliza o menu dos serviços*/
 .menu-servicos{
     display:flex;
     flex-wrap: wrap;
@@ -81,12 +83,14 @@ li .menuAtual{
     align-items: center;
 }
 
+/*Estiliza os itens dos serviços oferecidos*/
 .menu-servicos li{
     width: calc(30%);
     list-style: none;
     text-align: center;
 }
 
+/*Configura os itens de serviço*/
 .itens-servicos{
     display: inline-block;
     text-decoration: none;
@@ -95,6 +99,7 @@ li .menuAtual{
     
 }
 
+/*Estiliza o menu de produtos*/
 .menu-produtos{
     display:flex;
     flex-wrap: wrap;
@@ -102,12 +107,14 @@ li .menuAtual{
     align-items: center;
 }
 
+/*Estiliza os itens dos produtos oferecidos*/
 .menu-produtos li{
     width: calc(30%);
     list-style: none;
     text-align: center;
 }
 
+/*Configura os itens de produtos*/
 .itens-produtos{
     display: inline-block;
     text-decoration: none;
@@ -116,6 +123,7 @@ li .menuAtual{
     
 }
 
+/*Estiliza todos os cards da página*/
 .cards{
     background-color: #e09ca0;
     display: inline-block;
@@ -130,6 +138,7 @@ li .menuAtual{
     background-color: #f0c0c0;
 }
 
+/*Estiliza todos os links utilizados*/
 a{
     text-decoration: none;
     color: white;
@@ -138,6 +147,12 @@ a{
     font-size: 40px;
 }
 
+/*Adiciona um efeito ao passar o mouse em cima*/
+a:hover{
+    background-color: #f0c0c0;
+}
+
+/*Estiliza as imagens dentro do menu*/
 .imagem-menu{
     width: 160px;
     height: 170px;
