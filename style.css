@@ -1,18 +1,22 @@
+/* Define em todas as paginas a fonte das letras*/
 *{
     font-family: "Chau Philomene One", sans-serif;
 }
 
+/* Define a imagem de fundo das paginas */
 body{
     background-image: url(img/background.png); 
     background-size: 40%;
 }
 
+/* Estiliza a tag nav dos links para navegação da pagina */
 nav{
     top: 0;
     left: 0;
     width: 100%;
 }
 
+/* Estiliza os textos dos links das paginas */
 li{
     display: inline-block;
     text-decoration: none;
@@ -37,6 +41,7 @@ li .menuAtual{
     border-bottom: 3px solid #fab66b;
 }
 
+/* Estiliza toda a seção com o conteudo da pagina principal */
 .home {
     display: flex;
     padding: 10px;
@@ -55,12 +60,13 @@ li .menuAtual{
     flex-direction: column;
 }
 
+/* Estiliza em específico a imagem, para que ela possa ficar um pouco pra fora da seção */
 .home img {
-    position: absolute; /* Deixa a imagem fora do fluxo normal */
-    right: 0; /* Move a imagem para fora pela direita */
-    bottom: -25%; /* Alinha a imagem ao fundo do contêiner */
-    max-width: 30%; /* Tamanho da imagem */
-    height: auto;
+    position: absolute; 
+    right: 0; 
+    bottom: -25%; 
+    max-width: 30%; 
+    height: auto; 
 }
 
 .titulo{
@@ -137,4 +143,48 @@ a{
     height: 170px;
     background-color: white;
     border-radius: 20px;
+}
+
+/* Estiliza os conteudos principais da pagina de contato */
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: #e09ca0;
+    border-radius: 20px;
+    max-width: 65%;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+/* Três tags diferentes para estilizar cada texto da pagina de contato, para que eles tenham seus próprios tamanhos e posições*/
+.texto-contato{
+    font-size: 200%;
+}
+
+.horario-contato{
+    font-size: 170%;
+}
+
+.data-horario{
+    font-size: 170%;
+    margin: 0;
+}
+
+/* Estiliza a seção com as imagens da pagina de contato */
+.imagens-contato{
+    margin-top: 10%;
+    margin-left: 3%;
+}
+
+/* Estiliza os icones inseridos na seção */
+.icone{
+    cursor: pointer;
+    margin-right: 3%;
+    max-width: 7%;
+    height: auto;
+    border-radius: 50px;
 }
