@@ -51,7 +51,6 @@ li .menuAtual{
     max-width: 65%;
     margin-left: 15%;
     margin-top: 7%;
-    position: relative; /* Adicionando o position relativo para que a imagem possa sair do elemento */
 }
 
 .home .texto {
@@ -62,11 +61,9 @@ li .menuAtual{
 
 /* Estiliza em específico a imagem, para que ela possa ficar um pouco pra fora da seção */
 .home img {
-    position: absolute; 
-    right: 0; 
-    bottom: -25%; 
-    max-width: 30%; 
-    height: auto; 
+    
+    max-width: 40%;  
+    height: auto;
 }
 
 /*Estiliza o titulo da página*/
